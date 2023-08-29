@@ -2,7 +2,7 @@ import torch
 from torch import nn, optim
 from torch.utils.data import DataLoader
 
-# import config
+import config
 class EarlyStopping:
     def __init__(self):
         self.patience = config.Early_Stopping_Patience
